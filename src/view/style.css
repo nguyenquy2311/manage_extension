@@ -7,7 +7,7 @@ html{
     font-size: 16px;
 }
 body{
-    min-width:  450px;
+    min-width:  350px;
     min-height: 100vh;
     height: 100%;
     background: linear-gradient(180deg, #040918 0%, #091540 100%);
@@ -26,10 +26,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:20px;
+    gap:1.25rem;
     background-color:hsl(225, 23%, 24%);
 }
-.header > form > input{
+.header > form > input{ 
     flex:1;
     height: 100%;
     background: transparent;
@@ -40,8 +40,8 @@ body{
     font-family: 'NotoSans',sans-serif;
 }
 .header > form > button{
-    width: 50px;
-    height:50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -75,14 +75,14 @@ body{
 .header__content > div{
     display: flex;
     justify-content: center;
-    gap:10px;
+    gap:0.625rem;
 }
 .header__content > div > button:first-child{
-    width: 60px;
+    width: 3.75rem;
 }
 .header__content > div > button{
-    width: 90px;
-    height: 40px;
+    width: 5.625rem;
+    height: 2.5rem;
     font-size: 1rem;
     border-radius: 22px;
     background-color:hsl(225, 23%, 24%);
@@ -95,7 +95,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap:20px;
+    gap:1.25rem;
 }
 .listItems__element{
     width: calc((100% - 40px) / 3);  
@@ -106,7 +106,7 @@ body{
 }
 .elementContent{
     display: flex;
-    gap:10px;
+    gap:0.625rem;
 }
 .elementTitle{
     color: white;
@@ -125,8 +125,8 @@ body{
     margin-top:60px;
 }
 .elementAction > button{
-    width: 90px;
-    height: 30px;
+    width: 5.625rem;
+    height: 1.875rem;
     background-color: hsl(225, 23%, 24%);
     border: 2px solid hsl(226, 11%, 37%);
     color: white;
@@ -138,8 +138,8 @@ body{
 }
 .elementAction > label{
     position: relative;
-    width: 40px;
-    height: 20px;
+    width: 2.5rem;
+    height: 1.25rem;
     background-color: hsl(226, 10%, 42%);
     border-radius: 22px;
     transition: background-color 0.2s ease-in-out;
@@ -149,8 +149,8 @@ body{
     top: 0;
     right: 50%;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     border-radius: 20px;
     background-color: white;
     transition: right 0.2s ease-in-out;
